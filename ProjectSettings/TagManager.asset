@@ -4,10 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - creature
+  - Obstruct
   - gridUnit
-  - initiativeUI
+  - creature
   - ScriptHolder
+  - initiativeUI
+  - choiceButton
+  - PlayerBullet
+  - Enemy
+  - Script
   layers:
   - Default
   - TransparentFX
@@ -17,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Ship_Radar
+  - Particles
   - 
   - 
   - 
@@ -44,4 +49,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2297153661
     locked: 0

@@ -4,5 +4,73 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Projects/WorkShop_Menu/Scenes/demo.unity
+    guid: d14cc8da0b5e440e594ba5833d7a69f4
+  - enabled: 0
+    path: Assets/Projects/Fantasy Tactics/Scenes/Tactics_MainMenu.unity
+    guid: 568289277b08446a2a45d34067f6c2bd
+  - enabled: 0
+    path: Assets/Projects/Fantasy Tactics/Scenes/Tactics_Grid_Modeled.unity
+    guid: 4391c22bea80b4f338de0da7098b54d1
+  - enabled: 0
+    path: Assets/Projects/Fantasy Tactics/Scenes/Tactics_Grid_Workshop.unity
+    guid: 10da830c4121d4522aac3f5d7063615c
+  - enabled: 0
+    path: Assets/Projects/Fantasy Tactics/Scenes/Tactics_Animation_WorkShop.unity
+    guid: 6c15c9a0597374ac9a51ed049dd4e12f
+  - enabled: 0
+    path: Assets/Projects/SpaceFlight/Scenes/Flight_Main.unity
+    guid: b393ece6045a44d10bd0095e856e2dd1
+  - enabled: 0
+    path: Assets/Projects/SpaceFlight/Scenes/Flight_ShipBuilding.unity
+    guid: d12398c88d44c4ac492cd929d3096af3
+  - enabled: 0
+    path: Assets/Projects/xml_Loading/Scenes/loading.unity
+    guid: 25182392fa2a74ff0b88598cb108d5f5
+  - enabled: 0
+    path: Assets/Projects/xml_Loading/Scenes/main.unity
+    guid: a6e0732867b3445098616902236fb396
+  - enabled: 0
+    path: Assets/Projects/Dialouge_System/Scenes/Main.unity
+    guid: 4ebb01b7ee2e44362861057eceb098ec
+  - enabled: 0
+    path: Assets/Projects/WipEout/Scenes/ShipTestScene.unity
+    guid: 539d297a7b510404d9ebd1681133e6f8
+  - enabled: 0
+    path: Assets/Projects/WipEout/Scenes/ShipGarage.unity
+    guid: c1601266ac0663c4fae1b15abc0ce2c8
+  - enabled: 0
+    path: Assets/Projects/WipEout/Scenes/ShipLoadingTest.unity
+    guid: c974575301ef59e40a8e8b531ae8287c
+  - enabled: 0
+    path: Assets/Projects/2D Side scroller/Scenes/Main.unity
+    guid: 2dcb19fa756f88a419f1c72ebaf2a1b4
+  - enabled: 0
+    path: Assets/Projects/Top Down Shooter/Scenes/Main.unity
+    guid: 1467bbc0ef6d14996a9118bd8505664b
+  - enabled: 0
+    path: Assets/Projects/Top Down Shooter/Scenes/VFX Test.unity
+    guid: 1bc7f347ce61a4c65ba88316b345638b
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/MainMenu.unity
+    guid: ce83018bc144aa44c93d820cfb11fc28
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/The Basics 0-0.unity
+    guid: f8aee54eac253a4488d947ba0a23bbe9
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/Switches 0-1.unity
+    guid: 920fdb2c64e9c8b4b8a5141f9cff7326
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/Turnstile 0-2.unity
+    guid: b81bd3d056145d142baeb2fd5f1fbe86
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/Time 0-3.unity
+    guid: 98a250176a2eb7b469ae391b7dd61f95
+  - enabled: 1
+    path: Assets/Projects/TENET/Scenes/End Screen.unity
+    guid: 9baf9c46927bb5f4eb4a517ddb307f7f
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 3af6e52e6eaef4929b0f72c0023b4ed4,
+      type: 2}
