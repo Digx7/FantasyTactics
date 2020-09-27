@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7826378509837770231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7826378509837770233}
+  - component: {fileID: 7826378509837770234}
+  - component: {fileID: 7826378509837770235}
+  - component: {fileID: 7826378509837770232}
+  - component: {fileID: 7826378509837770236}
+  - component: {fileID: 7826378509837770237}
+  m_Layer: 0
+  m_Name: Battle System
+  m_TagString: ScriptHolder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7826378509837770233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.15039062, y: -1.4943161, z: -0.6494274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7826378509837770234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a5007b2b2de476686ea7317fd9c7d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grid_Unit_Script: {fileID: 0}
+  Grid_Generator_Script: {fileID: 0}
+  Grid_Turn_Manager: {fileID: 7826378509837770235}
+  Creature_Stats: {fileID: 0}
+  Grid_Character_Model_Movement: {fileID: 0}
+  Grid_UI_Manager: {fileID: 7826378509837770232}
+  actTarget: {x: 0, y: 0, z: 0}
+--- !u!114 &7826378509837770235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f723d92a893864506abc12aa7daef9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnOrder: []
+  Grid_UI_Manager: {fileID: 7826378509837770232}
+  currentTurn: 0
+--- !u!114 &7826378509837770232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb357af16bcf46cda3ff11466ada374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedGridUnit: {x: 0, y: 0, z: 0}
+  Grid_Turn_Manager: {fileID: 7826378509837770235}
+  actionButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  creatureActions: []
+  actionButtonsHolder: {fileID: 0}
+--- !u!114 &7826378509837770236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3549b7448e8974a43bda9863d061ccec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grid_Unit_Script: {fileID: 0}
+  Grid_Generator_Script: {fileID: 0}
+  Grid_Turn_Manager: {fileID: 7826378509837770235}
+  Creature_Stats: {fileID: 0}
+  Grid_Character_Model_Movement: {fileID: 0}
+  Grid_UI_Manager: {fileID: 7826378509837770232}
+  actTarget: {x: 0, y: 0, z: 0}
+--- !u!114 &7826378509837770237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826378509837770231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0cf9fe9ebc0a4439b8307112994c25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setupIsActive: 1
+  Grid_Generator_Script: {fileID: 0}
+  Grid_Turn_Manager: {fileID: 7826378509837770235}
